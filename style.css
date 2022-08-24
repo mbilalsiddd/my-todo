@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background: darkcyan;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+#main{
+    background-color: cornflowerblue;
+    width:35%;
+    min-height: 420px;
+    margin: 50px auto;
+    box-shadow: 3px 3px 10px 3px gray;
+}
+.title{
+    text-align: center;
+}
+.heading{
+    /* text-align: center; */
+    padding: 15px 10px 0px 10px;
+    color: black;
+}
+#item{
+    width: 54%;
+    height: 40px;
+    font-size: 22px;
+    color: black;
+     padding: 0px 0px 0px 15px;
+    margin-left: 19px;
+    outline-color: green;
+}
+
+.addButton{
+    height: 40px;
+    width: 65px; 
+    background-color: blue;
+    font-size:x-large;
+    border-color: transparent;
+    border-radius: 4px;
+    color:red;
+}
+.addButton:hover{
+    background: #296805;
+}
+
+.delAllButton{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 4px;
+    font-size:medium;
+    border-color: transparent;
+    color: red;
+}  
+.delAllButton:hover{
+    background-color: rgb(70, 2, 2);
+} 
+ .delBtn:hover{
+    background-color: rgb(70, 2, 2);
+
+}
+#content{
+    width: 310px;
+    height: 250px;
+    /* border: black 1px solid; */
+    padding: 0px 0px;
+    margin: 10px 17px;
+    overflow: auto;
+}
+
+#table{
+    width: 100%;
+}
+
+th{
+    margin: 5px 0px;    
+}
+
+.editBtn{
+    width: 100%;
+    height: 40px;
+    background-color: #2B4C59;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 2px;
+
+}
+.editBtn:hover{
+    background-color: #113b49;
+}
+
+.delBtn{
+    width: 100%;
+    height:40px ;
+    background-color: #DC143C;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 2px;
+}
+
+.itemtTd{
+    width: 100%;
+    height:35px;
+    font-size: 17px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.editTd{
+width: 20%;
+
+}
+
+.delTd{
+    width: 20%;
+}
